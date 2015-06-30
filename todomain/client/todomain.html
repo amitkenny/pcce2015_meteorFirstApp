@@ -1,0 +1,19 @@
+<template name="todomain">
+<div class="row">
+  <form method="post" id="todoform">
+    <div class="input-field">
+      <input type="text" name="task" id="task">
+      <label for="task">Your Next Task...</label>
+    </div>
+  </form>
+</div>
+  <div class="row">
+    <div class="collection">
+      {{#each tasks}}
+<a href="" class="collection-item">{{task}} </a>
+      {{/each}}
+
+
+        </div>
+  </div>
+</template>
